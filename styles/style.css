@@ -1,12 +1,10 @@
+@import url(variables.css);  
 @import url(media-queries.css);
-/* *, *::before, *::after{
-    box-sizing: border-box;
-} */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Graphik';
+    font-family: var(--project-font);
 }
 html{
     font-size: 62.5%;
@@ -14,19 +12,16 @@ html{
 }
 .menu-links a{
     font-size: 1.5rem;
-    color: white;
+    color: var(--text-color);
 }
-/* .links a:not(:last-child){
-    margin-right: 20px;
-} */
 a, a:visited{
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
 }
 .hero-section{
-    color: white;
+    color: var(--text-color);
     width: 100%; 
-    background-image: url(../images/hero.png);
+    background-image: var(--first-screen-image);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 255px; 
@@ -36,7 +31,6 @@ a, a:visited{
     background: transparent;
     width: 100%;
     margin: 0 auto;
-    
 }
 .logo{
     display: flex;
@@ -75,9 +69,17 @@ a, a:visited{
     justify-content: center;
     font-size: 2rem;
     padding: 16px 32px;
-    background-color: #2091F9;
+    background-color: var(--button-background);
     border-radius: 35px;
     width: 235px;
     font-weight: 300;
 }
-
+.contact-section{
+    display: grid;
+}
+.button-form{
+    width: 145px;
+}
+.info a{
+    color: var(--text-color-dark);
+}

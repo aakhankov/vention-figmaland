@@ -1,0 +1,7 @@
+:root{
+    --text-color: white;
+    --text-color-dark: black;
+    --button-background: #2091F9;
+    --project-font: 'Graphik';
+    --first-screen-image: url(../images/hero.png);
+}
