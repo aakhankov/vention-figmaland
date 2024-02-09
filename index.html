@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <div class="hero-section">
-      <div class="menu-block">
-        <header class="menu">
+    <div class="section hero-section">
+      <div class="hero-section__menu-block">
+        <header class="hero-section__menu">
           <nav class="navigation hide-for-tablet hide-for-mobile">
-            <div class="menu-links hide-for-tablet hide-for-mobile">
+            <div class="navigation__links hide-for-tablet hide-for-mobile">
               <a href="#">Home</a>
               <a href="#">Product</a>
               <a href="#">Pricing</a>
@@ -19,106 +19,94 @@
               <a href="#">Contact</a>
             </div>
           </nav>
-          <div class="logo">
+          <div class="hero-section__logo">
             <a href="#">
               <img class="logo" src="/images/logo/logo_light.svg" alt="logo" />
             </a>
           </div>
-          <div class="social hide-for-tablet hide-for-mobile">
-            <a href="#"
-              ><img src="/images/icons/twitter.svg" alt="twitter-logo"
-            /></a>
-            <a href="#"
-              ><img src="/images/icons/fb.svg" alt="facebook-logo"
-            /></a>
-            <a href="#"
-              ><img src="/images/icons/linkedin.svg" alt="linkedin-logo"
-            /></a>
+          <div class="hero-section__social hide-for-tablet hide-for-mobile">
+            <a href="#">
+              <img src="/images/icons/twitter.svg" alt="twitter-logo"/>
+            </a>
+            <a href="#">
+              <img src="/images/icons/fb.svg" alt="facebook-logo"/>
+            </a>
+            <a href="#">
+              <img src="/images/icons/linkedin.svg" alt="linkedin-logo"/>
+            </a>
           </div>
-          <a href="#" class="burger hide-for-desktop">
+          <a href="#" class="hero-section__burger hide-for-desktop">
             <img src="images/icons/burger.svg" alt="" />
           </a>
         </header>
       </div>
-      <section class="hero-description-block">
-        <div class="hero-description-text">
-          <h1 class="hero-description-title hide-for-mobile">
+      <section class="section hero-section__description-block">
+        <div class="description-block">
+          <h1 class="description-block__title hide-for-mobile">
             The best products<br />start with Figma
           </h1>
-          <h1
-            class="hero-description-title-mobile hide-for-desktop hide-for-tablet"
-          >
+          <h1 class="description-block__title--mobile hide-for-desktop hide-for-tablet">
             The best products start<br />
             with Figma
           </h1>
-          <p class="hero-description hide-for-tablet hide-for-mobile">
+          <p class="description-block__subtitle hide-for-tablet hide-for-mobile">
             Most Calendars are designed for teams.
-            <span
-              >Slate is designed<br />
-              for freelancers</span
-            >
+            <span>Slate is designed<br/>for freelancers</span>
           </p>
-          <p class="hero-description hide-for-desktop">
+          <p class="description-block__subtitle hide-for-desktop">
             Most Calendars are designed for teams.<br />
-            <span class="hide-for-mobile"
-              >Slate is designed for freelancers</span
-            >
+            <span class="hide-for-mobile">Slate is designed for freelancers</span>
           </p>
         </div>
-        <div class="button-block">
-          <div class="button">
+        <div class="description-block__button-block">
+          <div class="button-block__button">
             <a href="#" class="button-link">Try For Free</a>
           </div>
         </div>
       </section>
     </div>
-    <div class="contact-section">
-      <div class="contact-description-block">
-        <h1 class="contact-title">Contact Us</h1>
-        <p>
+    <div class="section contact-section">
+      <div class="contact-section__description-block">
+        <h1 class="contact-section__title">Contact Us</h1>
+        <p class="contact-section__paragraph">
           Most calendars are designed for teams.<br />
           <span class="hide-for-mobile">Slate is designed for freelancers</span>
         </p>
       </div>
-      <div class="conctact-content-block">
-        <div class="contact-form-block">
-          <h3 class="form-title">Contact Us</h3>
-          <form action="" class="conctact-form">
-            <input type="text" name="name" placeholder="Your Name" />
-            <input type="email" name="email" placeholder="Your Email" />
-            <input type="text" name="message" placeholder="Your Message" />
-            <div class="button button-form">
+      <div class="contact-section__content-block">
+        <div class="contact-section__content-block__form-block">
+          <h3 class="form-block__form-title">Contact Us</h3>
+          <form action="" class="form-block__contact-form">
+            <input class="form-block__contact-form__input" type="text" name="name" placeholder="Your Name" />
+            <input class="form-block__contact-form__input" type="email" name="email" placeholder="Your Email" />
+            <textarea class="form-block__contact-form__textarea" name="message" placeholder="Your Message" rows="11"></textarea>
+            <div class="button-block__button button-form">
               <a href="#" class="button-link">Send</a>
             </div>
           </form>
         </div>
-        <div class="contact-info">
-          <div class="contact-icons">
-            <ul class="contact-icons-list">
-              <li class="list-item">
-                <img src="images/icons/location.svg" alt="location-icon" />
-                <span class="info"
-                  >6386 Spring St undefined Anchorage, Georgia 12473 United
-                  States</span
-                >
+        <div class="contact-section__contact-info">
+          <div class="contact-section__contact-info__contact-icons">
+            <ul class="contact-icons__list">
+              <li class="contact-icons__list__item">
+                <img src="images/icons/location.png" alt="location-icon" />
+                <span class="list__item__info">6386 Spring St undefined Anchorage, Georgia 12473 United States</span>
               </li>
-              <li class="list-item">
-                <img src="images/icons/phone.svg" />
-                <span class="info"
-                  ><a href="tel:+8435550130">(843) 555-0130</a></span
-                >
+              <li class="contact-icons__list__item">
+                <img src="images/icons/phone.png" />
+                <span class="list__item__info">
+                  <a href="tel:+8435550130">(843) 555-0130</a>
+                </span>
               </li>
-              <li class="list-item">
+              <li class="contact-icons__list__item">
                 <img src="images/icons/email.png" />
-                <span class="info"
-                  ><a href="mailto:willie.jennings@example.com"
-                    >willie.jennings@example.com</a
-                  ></span
-                >
+                <span class="list__item__info">
+                  <a href="mailto:willie.jennings@example.com">willie.jennings@example.com</a>
+                </span>
               </li>
             </ul>
           </div>
-          <div class="contact-map hide-for-mobile">
+          <div class="contact-section__contact-info__contact-map hide-for-mobile">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6022.437053639505!2d-122.4207993484061!3d37.77526482349944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858099567da9bf%3A0x94bd5c3a2e246a82!2s101%20Hayes%20St%2C%20San%20Francisco%2C%20CA%2094102%2C%20USA!5e0!3m2!1sen!2spl!4v1707308599377!5m2!1sen!2spl"
               width="516"
@@ -126,19 +114,19 @@
               style="border: 0"
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
-          <div class="conctact-social-form">
-            <a href="#"
-              ><img src="/images/icons/twitter_blue.svg" alt="twitter-logo"
-            /></a>
-            <a href="#"
-              ><img src="/images/icons/fb_blue.svg" alt="facebook-logo"
-            /></a>
-            <a href="#"
-              ><img src="/images/icons/linkedin_blue.svg" alt="linkedin-logo"
-            /></a>
+          <div class="contact-section__contact-info__social-form">
+            <a href="#">
+              <img src="/images/icons/twitter_blue.svg" alt="twitter-logo"/>
+            </a>
+            <a href="#">
+              <img src="/images/icons/fb_blue.svg" alt="facebook-logo"/>
+            </a>
+            <a href="#">
+              <img src="/images/icons/linkedin_blue.svg" alt="linkedin-logo"/>
+            </a>
           </div>
         </div>
       </div>
