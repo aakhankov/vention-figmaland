@@ -1,0 +1,11 @@
+:root{
+    --text-color: white;
+    --text-color-dark: black;
+    --button-background: #2091F9;
+    --project-font: 'Graphik';
+    --first-screen-image: url(../images/hero.png);
+    --contact-title: #252B42;
+    --contact-text: #374754;
+    --form-fields: #F5f5f5;
+    --placeholder-color: #18171D;
+}
